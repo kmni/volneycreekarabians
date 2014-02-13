@@ -159,7 +159,7 @@ img.span_bottom {margin-bottom: 20px!important;}
 }
 
 .horse_detail .top_box {background: #2d1a0e; padding: 12px 0 0 12px; margin-bottom: 20px;}
-.horse_detail .gallery_box {float: left; width: 45%; text-align: center; background: #e0d3b9; margin: 0 12px 12px 0;}
+.horse_detail .image_box {float: left; width: 45%; text-align: center; background: #e0d3b9; margin: 0 12px 12px 0;}
 .horse_detail .info_box {float: right; width: 48%; padding: 12px 0 0; margin: 0 0 12px;}
 .horse_detail .info_box h1 {font: 400 36px/40px 'Lora', serif; color: #2d1a0e; text-align: center; text-transform: none; background: #c1b69f; border-radius: 16px 0 0 16px; padding: 10px 0; margin: 0 -3px 45px 0;}
 .horse_detail .info_box table {margin: 0 0 40px 14px;}
@@ -174,26 +174,53 @@ img.span_bottom {margin-bottom: 20px!important;}
 .horse_detail .info_box span.height {background: url(../img/icon-hand.png) left 2px no-repeat;}
 #content .horse_detail .info_box p {margin: 0 18px;}
 #content .horse_detail .info_box ul {margin: 0 18px 22px 24px;}
-.horse_detail .pedigree_box {clear: both; background: #fafafa; padding: 16px 18px;}
-.horse_detail .pedigree_box h4 {font: 400 1.125em/1.2222em 'Oswald', Arial; color: #6e1515; padding: 0; margin: 0 0 20px 0;}
+.horse_detail .pedigree_box,
+.horse_detail .gallery_box,
+.horse_detail .video_box {clear: both; margin-top: 20px;}
 .horse_detail .pedigree_box table {width: 100%;}
-.horse_detail .pedigree_box table td {font: 300 1.25em/1.2em 'Oswald', Arial; color: #000; vertical-align: middle; border-bottom: 2px solid #cdcdcd; padding: 15px 0;}
+.horse_detail .pedigree_box table td {font: 300 1.25em/1.2em 'Oswald', Arial; color: #000; vertical-align: middle; border-bottom: 2px solid #E0D3B9; padding: 15px 0;}
 .horse_detail .pedigree_box table td[rowspan="8"] {}
-.horse_detail .pedigree_box table td strong {font-weight: 300; color: #3f57a6;}
-
+.horse_detail .pedigree_box table td strong {font-weight: 300; color: #098323;}
+.horse_detail .gallery_box a {float: left; width: 19.5%; max-width: 160px; margin: 0 9px 9px 0;}
+.horse_detail .gallery_box a:nth-of-type(5n) {margin-right: 0;}
+.horse_detail .video_box {text-align: center;}
 
 @media (max-width: 980px) {
     .horse_detail .top_box {padding-right: 12px;}
-    .horse_detail .gallery_box {width: 100%; max-width: 100%;}
+    .horse_detail .image_box {width: 100%; max-width: 100%;}
     .horse_detail .info_box {width: 100%; height: auto; padding-bottom: 20px;}
+    .horse_detail .gallery_box a {width: 18.8%;}
 }
 @media (max-width: 860px) {.horse_detail .pedigree_box table td {font-size: 1em;}}
+@media (max-width: 768px) {
+    .horse_detail .gallery_box a {width: 23.8%;}
+    .horse_detail .gallery_box a:nth-of-type(5n) {margin-right: 9px;}
+    .horse_detail .gallery_box a:nth-of-type(4n) {margin-right: 0;}
+}
+@media (max-width: 702px) {.horse_detail .gallery_box a {width: 23.6%;}}
+@media (max-width: 640px) {.horse_detail .gallery_box a {width: 23.3%;}}
+@media (max-width: 540px) {
+    .horse_detail .gallery_box a {width: 31.5%;}
+    .horse_detail .gallery_box a:nth-of-type(5n),
+    .horse_detail .gallery_box a:nth-of-type(4n) {margin-right: 9px;}
+    .horse_detail .gallery_box a:nth-of-type(3n) {margin-right: 0;}
+}
 @media (max-width: 480px) {
     .horse_detail .pedigree_box table td {font-size: 0.875em;}
-    .horse_detail .info_box .links a#pedigree_link {margin-right: 12px;}    
+    .horse_detail .info_box .links a#pedigree_link {margin-right: 12px;}
+    .horse_detail .gallery_box a {width: 48.0%;}
+    .horse_detail .gallery_box a:nth-of-type(5n),
+    .horse_detail .gallery_box a:nth-of-type(4n),
+    .horse_detail .gallery_box a:nth-of-type(3n) {margin-right: 9px;}
+    .horse_detail .gallery_box a:nth-of-type(2n) {margin-right: 0;}
 }
 @media (max-width: 440px) {
-    .horse_detail .info_box .links a#pedigree_link {font-size: 18px; padding-right: 15px; padding-left: 15px; margin-right: 12px;}    
+    .horse_detail .info_box .links a#pedigree_link {font-size: 18px; padding-right: 15px; padding-left: 15px; margin-right: 12px;}
+    .horse_detail .gallery_box a {width: 100%; max-width: 100%; text-align: center;}
+    .horse_detail .gallery_box a:nth-of-type(5n),
+    .horse_detail .gallery_box a:nth-of-type(4n),
+    .horse_detail .gallery_box a:nth-of-type(3n),
+    .horse_detail .gallery_box a:nth-of-type(2n) {margin-right: 0;}
 }
 
 /* UNDER CONTENT */
