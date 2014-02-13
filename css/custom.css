@@ -184,6 +184,7 @@ img.span_bottom {margin-bottom: 20px!important;}
 .horse_detail .gallery_box a {float: left; width: 19.5%; max-width: 160px; margin: 0 9px 9px 0;}
 .horse_detail .gallery_box a:nth-of-type(5n) {margin-right: 0;}
 .horse_detail .video_box {text-align: center;}
+.horse_detail .video_box iframe {width: 100%;}
 
 @media (max-width: 980px) {
     .horse_detail .top_box {padding-right: 12px;}
