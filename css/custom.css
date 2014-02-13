@@ -177,51 +177,51 @@ img.span_bottom {margin-bottom: 20px!important;}
 .horse_detail .pedigree_box,
 .horse_detail .gallery_box,
 .horse_detail .video_box {clear: both; margin-top: 20px;}
-.horse_detail .pedigree_box table {width: 100%;}
-.horse_detail .pedigree_box table td {font: 300 1.25em/1.2em 'Oswald', Arial; color: #000; vertical-align: middle; border-bottom: 2px solid #E0D3B9; padding: 15px 0;}
-.horse_detail .pedigree_box table td[rowspan="8"] {}
-.horse_detail .pedigree_box table td strong {font-weight: 300; color: #098323;}
-.horse_detail .gallery_box a {float: left; width: 19.5%; max-width: 160px; margin: 0 9px 9px 0;}
-.horse_detail .gallery_box a:nth-of-type(5n) {margin-right: 0;}
-.horse_detail .video_box {text-align: center;}
-.horse_detail .video_box iframe {width: 100%;}
+.pedigree_box table {width: 100%;}
+.pedigree_box table td {font: 300 1.25em/1.2em 'Oswald', Arial; color: #000; vertical-align: middle; border-bottom: 2px solid #E0D3B9; padding: 15px 0;}
+.pedigree_box table td[rowspan="8"] {}
+.pedigree_box table td strong {font-weight: 300; color: #098323;}
+.gallery_box a {float: left; width: 19.5%; max-width: 160px; margin: 0 9px 9px 0;}
+.gallery_box a:nth-of-type(5n) {margin-right: 0;}
+.video_box {text-align: center;}
+.video_box iframe {width: 100%;}
 
 @media (max-width: 980px) {
     .horse_detail .top_box {padding-right: 12px;}
     .horse_detail .image_box {width: 100%; max-width: 100%;}
     .horse_detail .info_box {width: 100%; height: auto; padding-bottom: 20px;}
-    .horse_detail .gallery_box a {width: 18.8%;}
+    .gallery_box a {width: 18.8%;}
 }
 @media (max-width: 860px) {.horse_detail .pedigree_box table td {font-size: 1em;}}
 @media (max-width: 768px) {
-    .horse_detail .gallery_box a {width: 23.8%;}
-    .horse_detail .gallery_box a:nth-of-type(5n) {margin-right: 9px;}
-    .horse_detail .gallery_box a:nth-of-type(4n) {margin-right: 0;}
+    .gallery_box a {width: 23.8%;}
+    .gallery_box a:nth-of-type(5n) {margin-right: 9px;}
+    .gallery_box a:nth-of-type(4n) {margin-right: 0;}
 }
 @media (max-width: 702px) {.horse_detail .gallery_box a {width: 23.6%;}}
 @media (max-width: 640px) {.horse_detail .gallery_box a {width: 23.3%;}}
 @media (max-width: 540px) {
-    .horse_detail .gallery_box a {width: 31.5%;}
-    .horse_detail .gallery_box a:nth-of-type(5n),
-    .horse_detail .gallery_box a:nth-of-type(4n) {margin-right: 9px;}
-    .horse_detail .gallery_box a:nth-of-type(3n) {margin-right: 0;}
+    .gallery_box a {width: 31.5%;}
+    .gallery_box a:nth-of-type(5n),
+    .gallery_box a:nth-of-type(4n) {margin-right: 9px;}
+    .gallery_box a:nth-of-type(3n) {margin-right: 0;}
 }
 @media (max-width: 480px) {
     .horse_detail .pedigree_box table td {font-size: 0.875em;}
     .horse_detail .info_box .links a#pedigree_link {margin-right: 12px;}
-    .horse_detail .gallery_box a {width: 48.0%;}
-    .horse_detail .gallery_box a:nth-of-type(5n),
-    .horse_detail .gallery_box a:nth-of-type(4n),
-    .horse_detail .gallery_box a:nth-of-type(3n) {margin-right: 9px;}
-    .horse_detail .gallery_box a:nth-of-type(2n) {margin-right: 0;}
+    .gallery_box a {width: 48.0%;}
+    .gallery_box a:nth-of-type(5n),
+    .gallery_box a:nth-of-type(4n),
+    .gallery_box a:nth-of-type(3n) {margin-right: 9px;}
+    .gallery_box a:nth-of-type(2n) {margin-right: 0;}
 }
 @media (max-width: 440px) {
     .horse_detail .info_box .links a#pedigree_link {font-size: 18px; padding-right: 15px; padding-left: 15px; margin-right: 12px;}
-    .horse_detail .gallery_box a {width: 100%; max-width: 100%; text-align: center;}
-    .horse_detail .gallery_box a:nth-of-type(5n),
-    .horse_detail .gallery_box a:nth-of-type(4n),
-    .horse_detail .gallery_box a:nth-of-type(3n),
-    .horse_detail .gallery_box a:nth-of-type(2n) {margin-right: 0;}
+    .gallery_box a {width: 100%; max-width: 100%; text-align: center;}
+    .gallery_box a:nth-of-type(5n),
+    .gallery_box a:nth-of-type(4n),
+    .gallery_box a:nth-of-type(3n),
+    .gallery_box a:nth-of-type(2n) {margin-right: 0;}
 }
 
 /* UNDER CONTENT */
