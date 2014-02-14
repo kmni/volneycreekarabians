@@ -71,13 +71,20 @@ a:focus {outline: none;}
 
 
 /* CONTENT */
+h1 {font: 400 42px/46px 'Lora', serif; color: #000; text-transform: uppercase; padding: 20px 0 0; margin: 0 0 25px 0;}
+h2 {font: normal 1.5em/1.16667em 'Oswald', sans-serif; color: #000; padding: 0; margin: 0 0 10px;}
+p {font: normal 14px/18px 'Lora', serif; color: #2d1a0e; padding: 0; margin: 0 0 20px;}
+p a,
+p a:hover {color: #098323; text-decoration: none;}
+img.span_bottom {margin-bottom: 20px!important;}
+
 
 #content {background: #e0d3b9; padding: 20px; margin: 0 17px;}
 .homepage #content {background: none; padding: 0;}
 .row-fluid {width: auto; padding: 0;}
 .home_logo {text-align: center; padding: 70px 0 100px;}
 .home_text {background: url(../img/bg_home_text.png) left bottom no-repeat; background-size: 26%; padding: 0 0 0 28.07%;}
-.home_text h1 {font: normal 22px/26px Georgia, sans-serif; color: #c3b9a6; background: url(../img/bg_home_text_h1.png) right 12px no-repeat; padding: 0; margin: 0 0 10px;}
+.home_text h1 {font: normal 22px/26px Georgia, sans-serif; color: #c3b9a6; text-transform: none; background: url(../img/bg_home_text_h1.png) right 12px no-repeat; padding: 0; margin: 0 0 10px;}
 .home_text p {font: normal 16px/20px Georgia, sans-serif; color: #c6bca9; padding: 0 0 25px 0; margin: 0;}
 .home_text p a {color: #c6bca9; text-decoration: underline;}
 .text {clear: both; background: #b9ae99; padding: 16px 25px;}
@@ -89,12 +96,6 @@ a:focus {outline: none;}
 .text h2 a {background: #b9ae99; padding: 0 10px;}
 .text p {}
 
-h1 {font: 400 42px/46px 'Lora', serif; color: #000; text-transform: uppercase; padding: 20px 0 0; margin: 0 0 25px 0;}
-h2 {font: normal 1.5em/1.16667em 'Oswald', sans-serif; color: #000; padding: 0; margin: 0 0 10px;}
-p {font: normal 14px/18px 'Lora', serif; color: #2d1a0e; padding: 0; margin: 0 0 20px;}
-p a,
-p a:hover {color: #098323; text-decoration: none;}
-img.span_bottom {margin-bottom: 20px!important;}
 
 #content.horses_list {border-bottom: 8px solid #b9ae99; padding-bottom: 0;}
 .horses_list .header {background: url(../img/bg_horses_list_header.png) center bottom no-repeat; background-size: 100%; padding: 4px 26px 0 16px; margin: 0 0 6px 0;}
@@ -104,7 +105,7 @@ img.span_bottom {margin-bottom: 20px!important;}
 .horses_list .header ul li.filly {background-position: right -19px;}
 .horses_list .header ul li.stallion {background-position: right -39px;}
 .horses_list .header ul li.colt {background-position: right -58px;}
-.horses_list .list {width: 106%; max-width: 937px; background: red; margin-left: -2.8%;}
+.horses_list .list {width: 106%; max-width: 937px; margin-left: -2.8%;}
 .horses_list .list .item {float: left; width: 24.5%; margin: 0 6px 6px 0;}
 .horses_list .list .item:nth-child(4n) {margin-right: 0;}
 .horses_list .list .image {position: relative; display: block; background: #b9ae99; border-bottom: 14px solid #940d0d; margin-bottom: 5px;}

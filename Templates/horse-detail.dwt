@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Horse Detail - Volney Creek Arabians</title>
+    <!-- TemplateEndEditable -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../js/colorbox/colorbox.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+    <div class="navbar navbar-static-top">
+        <div class="container">
+             <div class="navbar-inner">
+                <ul class="nav" id="mobile_navi">
+                    <li><a href="#" title="Show me menu">MENU <img src="../img/s.gif" alt="V"></a></li>
+                </ul>
+                <ul class="nav clearfix" id="top_navi">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../about-us.html">ABOUT US</a></li>
+                    <li class="has_children">
+                        <a href="../volney-horses.html">VOLNEY HORSES</a>
+                        <ul>
+                            <li><a href="../sale-horses.html">SALE HORSES</a></li>
+                            <li><a href="../broodmares.html">BROODMARES</a></li>
+                            <li><a href="../performance.html">PERFORMANCE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../new-foals.html">NEW FOALS</a></li>
+                    <li><a href="../news.html">NEWS</a></li>
+                    <li><a href="../photo-gallery.html">PHOTO GALLERY</a></li>
+                    <li class="last"><a href="../contact-us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div id="logo">
+                <a href="/" title=""><img src="../img/logo.png" alt="" /></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div id="content" class="horse_detail">
+            <div class="row-fluid">
+                
+                <div class="top_box clearfix">
+                    <div class="image_box">
+                        <img class="detail" src="../img/volney-horses/horse-01-393px.jpg">
+                    </div> <!--// .gallery_box -->
+                    <div class="info_box">
+                        <h1>Lorem Ipsum</h1>
+                        
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Sire:</th>
+                                    <td>Lorem Sire</td>
+                                </tr>
+                                <tr>
+                                    <th>Dam:</th>
+                                    <td>Ipsum Dam</td>
+                                </tr>
+                                <tr>
+                                    <th>Color:</th>
+                                    <td>Chocolate</td>
+                                </tr>
+                                <tr>
+                                    <th>Gender:</th>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="links clearfix">
+                            <a href="#gallery" id="gallery_link"><img src="../img/icon-camera.png"></a>
+                            <a href="#video" id="video_link"><img src="../img/icon-video-camera.png"></a>
+                            <a href="#pedigree" id="pedigree_link">Pedigree</a>
+                        </div>
+                        
+                    </div> <!--// .info_box -->
+                    <div class="cleaner"></div>
+                </div> <!--// .top_box -->
+                
+                <div class="text">
+                    <h2><span>Lorem Ipsum's story</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut augue lacus. Praesent dapibus congue lacus, a interdum nisl pulvinar et. Aliquam sodales eget sem vel auctor. Praesent adipiscing id dui sed pharetra. Donec hendrerit convallis ligula, id mollis urna commodo et. Quisque imperdiet semper molestie. Integer rutrum nisl eget nisi dignissim mollis. Mauris consectetur metus nec quam mollis, vitae scelerisque purus lobortis. Nunc dignissim cursus est volutpat interdum. Donec luctus felis dui, id porta nisl vulputate sit amet. Curabitur ultricies sed lacus eget cursus. Donec iaculis lacinia tellus at lobortis. Donec non vestibulum nibh, vel tempus leo.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut augue lacus. Praesent dapibus congue lacus, a interdum nisl pulvinar et. Aliquam sodales eget sem vel auctor. Praesent adipiscing id dui sed pharetra. Donec hendrerit convallis ligula, id mollis urna commodo et. Quisque imperdiet semper molestie. Integer rutrum nisl eget nisi dignissim mollis. Mauris consectetur metus nec quam mollis, vitae scelerisque purus lobortis. Nunc dignissim cursus est volutpat interdum. Donec luctus felis dui, id porta nisl vulputate sit amet. Curabitur ultricies sed lacus eget cursus. Donec iaculis lacinia tellus at lobortis. Donec non vestibulum nibh, vel tempus leo.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut augue lacus. Praesent dapibus congue lacus, a interdum nisl pulvinar et. Aliquam sodales eget sem vel auctor. Praesent adipiscing id dui sed pharetra. Donec hendrerit convallis ligula, id mollis urna commodo et. Quisque imperdiet semper molestie. Integer rutrum nisl eget nisi dignissim mollis. Mauris consectetur metus nec quam mollis, vitae scelerisque purus lobortis. Nunc dignissim cursus est volutpat interdum. Donec luctus felis dui, id porta nisl vulputate sit amet. Curabitur ultricies sed lacus eget cursus. Donec iaculis lacinia tellus at lobortis. Donec non vestibulum nibh, vel tempus leo.</p>
+                </div>
+
+                <div id="pedigree" class="pedigree_box text">
+                    <h2><span>Pedigree</span></h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td rowspan="4"><strong>Reeces Thunder Storm</strong></td>
+                                <td rowspan="2">sire name 1</td>
+                                <td>sire name 3</td>
+                            </tr>
+                            <tr>
+                                <td>dam name 3</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">dam name 1</td>
+                                <td>sire name 4</td>
+                            </tr>
+                            <tr>
+                                <td>dam name 4</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="4">ERL Rebels Miss Ditto</td>
+                                <td rowspan="2">sire name 2</td>
+                                <td>sire name 5</td>
+                            </tr>
+                            <tr>
+                                <td>dam name 5</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">dam name 2</td>
+                                <td>sire name 6</td>
+                            </tr>
+                            <tr>
+                                <td>dam name 6</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>&nbsp;</p>
+                </div> <!--// .pedigree_box -->
+
+                <div id="gallery" class="gallery_box text clearfix">
+                    <h2><span>Gallery</span></h2>
+
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox" title="Some horse"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+                </div> <!--// .gallery_box -->
+
+                <div id="video" class="video_box text clearfix">
+                    <h2><span>Video</span></h2>
+
+                    <iframe width="640" height="480" src="//www.youtube.com/embed/gGc-XG-Fio8?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div> <!--// .video_box -->
+
+            </div>
+        </div> <!--// #content -->
+    </div>
+
+    <div id="under_content">
+        <div class="container">
+            <div class="text"><a href="../sale-horses.html">View Our Arabians</a></div>
+        </div>
+    </div> <!--// #under_content -->
+
+    <div id="above_footer">
+        <div class="container">
+            <div class="text">Byron and Debi Donics of Volney Creek Montana<br>Contact us xxx-xxx-xxxx<br>
+            WWW.VOLNEYCREEKARABIANS.COM</div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="author">Website designed by <a href="">arabhorse.com</a> 2014</div>
+        </div>
+    </div>
+
+    <script src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/colorbox/jquery.colorbox-min.js"></script>
+    <script src="../js/hju.js"></script>
+    
+  </body>
+</html>

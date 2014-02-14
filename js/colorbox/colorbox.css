@@ -27,8 +27,8 @@
         #cboxError{padding:50px; border:1px solid #ccc;}
         #cboxLoadedContent{border:1px solid #fff; background:#fff;}
         #cboxContent {padding: 30px 40px 65px;}
-        #cboxCurrent {position:absolute; bottom: 35px; left: 50px; font: 300 1.125em/1em 'Oswald', Arial; color:#fff;}
-        #cboxTitle {position:absolute; bottom: 0; left: 52px; font: 300 1.75em/1em 'Oswald', Arial; color:#fff;}
+        #cboxCurrent {position:absolute; bottom: 35px; left: 50px; font: 300 16pxem/20px Arial; color:#fff;}
+        #cboxTitle {position:absolute; bottom: 0; left: 52px; font: 300 18px/22px Arial; color:#fff;}
         #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
 
         /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
