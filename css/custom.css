@@ -105,14 +105,18 @@ img.span_bottom {margin-bottom: 20px!important;}
 .horses_list .header ul li.filly {background-position: right -19px;}
 .horses_list .header ul li.stallion {background-position: right -39px;}
 .horses_list .header ul li.colt {background-position: right -58px;}
+.horses_list .header ul li.gelding {background-position: right -77px;}
 .horses_list .list {width: 106%; max-width: 937px; margin-left: -2.8%;}
 .horses_list .list .item {float: left; width: 24.5%; margin: 0 6px 6px 0;}
+.horses_list .list .item:nth-child(4n+5) {clear:left;}
 .horses_list .list .item:nth-child(4n) {margin-right: 0;}
 .horses_list .list .image {position: relative; display: block; background: #b9ae99; border-bottom: 14px solid #940d0d; margin-bottom: 5px;}
 .horses_list .list .image img.flag {position: absolute; bottom: 10px; right: 15px;}
 .horses_list .list .filly .image {border-color: #c03f67;}
 .horses_list .list .stallion .image {border-color: #223072;}
 .horses_list .list .colt .image {border-color: #5381c0;}
+.horses_list .list .gelding .image {border-color: #22722a;}
+.horses_list .list .none .image {border-color: #67432c;}
 .horses_list .list .item h2,
 .horses_list .list .item h3 {font: normal 12px/15px Arial; color: #0e0805; text-transform: uppercase; padding: 0 5px 0 22px; margin: 0 0 2px;}
 .horses_list .list .item h2 a,
@@ -120,6 +124,8 @@ img.span_bottom {margin-bottom: 20px!important;}
 .horses_list .list .item p {font: normal 10px/12px Arial; color: #0e0805; text-transform: uppercase; padding: 0 5px 0 22px;}
 .horses_list .list .item p a {color: #0e0805; text-decoration: none}
 @media (max-width: 980px) {
+	.horses_list .list .item:nth-child(4n+5) {clear:none;}
+	.horses_list .list .item:nth-child(3n+4) {clear:left;}
     .horses_list .list .item {width: 32.7%;}
     .horses_list .list .item:nth-child(4n) {margin-right: 6px;}
     .horses_list .list .item:nth-child(3n) {margin-right: 0;}
@@ -138,6 +144,7 @@ img.span_bottom {margin-bottom: 20px!important;}
 }
 @media (max-width: 495px) {
     .horses_list .list .item {width: 49%;}
+	.horses_list .list .item:nth-child(3n+4) {clear:none;}
     .horses_list .list .item:nth-child(3n),
     .horses_list .list .item:nth-child(4n) {margin-right: 6px;}
     .horses_list .list .item:nth-child(2n) {margin-right: 0;}

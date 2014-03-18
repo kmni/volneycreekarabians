@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8">
     <!-- TemplateBeginEditable name="doctitle" -->
-    <title>About Us - Volney Creek Arabians</title>
+    <title>Volney Creek Arabians</title>
     <!-- TemplateEndEditable -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="icon" href="../favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
@@ -65,21 +66,23 @@
         </div> <!--// #content -->
     </div>
 
-    <div id="under_content">
+     <div id="under_content">
         <div class="container">
-            <div class="text"><a href="../sale-horses.html">View Our Arabians</a></div>
+            <div class="text"><a href="../volney-horses.html">View Our Arabians</a></div>
         </div>
     </div> <!--// #under_content -->
 
     <div id="above_footer">
         <div class="container">
-            <div class="text">Byron and Debi Donics of Volney Creek Montana<br>Contact us xxx-xxx-xxxx<br>WWW.VOLNEYCREEKARABIANS.COM</div>
+            <div class="text">Byron and Debi Donics of Volney Creek Montana<br>
+            520 Volney Creek Road<br>
+            Red Lodge, Montana 59068</div>
         </div>
     </div>
 
     <div id="footer">
         <div class="container">
-            <div class="author">Website designed by <a href="">arabhorse.com</a> 2014</div>
+            <div class="author">Website designed by <a href="http://www.arabhorse.com" target="_blank">arabhorse.com</a> 2014</div>
         </div>
     </div>
 

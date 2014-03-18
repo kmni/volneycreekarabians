@@ -8,7 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="icon" href="../favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
@@ -55,135 +56,122 @@
             <div class="row-fluid">
                 
                 <div class="top_box clearfix">
-                    <div class="image_box">
-                        <img class="detail" src="../img/volney-horses/horse-01-393px.jpg">
-                    </div> <!--// .gallery_box -->
+                    <div class="image_box"><!-- TemplateBeginEditable name="Main-Thumb" --><img class="detail" src="../img/volney-horses/horse-01-393px.jpg"><!-- TemplateEndEditable --></div> <!--// .gallery_box -->
                     <div class="info_box">
-                        <h1>Lorem Ipsum</h1>
-                        
+                        <h1><!-- TemplateBeginEditable name="Horse-Name" -->Lorem Ipsum<!-- TemplateEndEditable --></h1>
+                    <!-- TemplateBeginEditable name="Info" -->
                         <table>
-                            <tbody>
+                          <tbody>
+                            <tr>
+                              <th>Sire:</th>
+                              <td>Lorem Sire</td>
+                            </tr>
+                            <tr>
+                              <th>Dam:</th>
+                              <td>Ipsum Dam</td>
+                            </tr>
                                 <tr>
-                                    <th>Sire:</th>
-                                    <td>Lorem Sire</td>
-                                </tr>
-                                <tr>
-                                    <th>Dam:</th>
-                                    <td>Ipsum Dam</td>
-                                </tr>
-                                <tr>
-                                    <th>Color:</th>
-                                    <td>Chocolate</td>
-                                </tr>
-                                <tr>
-                                    <th>Gender:</th>
-                                    <td>&nbsp;</td>
-                                </tr>
-                            </tbody>
+                              <th>Foaled:</th>
+                              <td>2008</td>
+                            </tr>
+                            <tr>
+                              <th>Color:</th>
+                              <td>Chocolate</td>
+                            </tr>
+                            <tr>
+                              <th>Gender:</th>
+                              <td>Mare</td>
+                            </tr>
+                          </tbody>
                         </table>
-
-                        <div class="links clearfix">
-                            <a href="#gallery" id="gallery_link"><img src="../img/icon-camera.png"></a>
-                            <a href="#video" id="video_link"><img src="../img/icon-video-camera.png"></a>
-                            <a href="#pedigree" id="pedigree_link">Pedigree</a>
-                        </div>
+                        <!-- TemplateEndEditable -->
+                        <div class="links clearfix"><!-- TemplateBeginEditable name="Icons" --><a href="#gallery" id="gallery_link"><img src="../img/icon-camera.png"></a> <a href="#video" id="video_link"><img src="../img/icon-video-camera.png"></a> <a href="#pedigree" id="pedigree_link">Pedigree</a><!-- TemplateEndEditable --></div>
                         
                     </div> <!--// .info_box -->
                     <div class="cleaner"></div>
                 </div> <!--// .top_box -->
                 
                 <div class="text">
-                    <h2><span>Lorem Ipsum's story</span></h2>
+                    <h2><span><!-- TemplateBeginEditable name="Story-Title" -->Lorem Ipsum's story<!-- TemplateEndEditable --></span></h2>
+                    <!-- TemplateBeginEditable name="Story" -->
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut augue lacus. Praesent dapibus congue lacus, a interdum nisl pulvinar et. Aliquam sodales eget sem vel auctor. Praesent adipiscing id dui sed pharetra. Donec hendrerit convallis ligula, id mollis urna commodo et. Quisque imperdiet semper molestie. Integer rutrum nisl eget nisi dignissim mollis. Mauris consectetur metus nec quam mollis, vitae scelerisque purus lobortis. Nunc dignissim cursus est volutpat interdum. Donec luctus felis dui, id porta nisl vulputate sit amet. Curabitur ultricies sed lacus eget cursus. Donec iaculis lacinia tellus at lobortis. Donec non vestibulum nibh, vel tempus leo.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut augue lacus. Praesent dapibus congue lacus, a interdum nisl pulvinar et. Aliquam sodales eget sem vel auctor. Praesent adipiscing id dui sed pharetra. Donec hendrerit convallis ligula, id mollis urna commodo et. Quisque imperdiet semper molestie. Integer rutrum nisl eget nisi dignissim mollis. Mauris consectetur metus nec quam mollis, vitae scelerisque purus lobortis. Nunc dignissim cursus est volutpat interdum. Donec luctus felis dui, id porta nisl vulputate sit amet. Curabitur ultricies sed lacus eget cursus. Donec iaculis lacinia tellus at lobortis. Donec non vestibulum nibh, vel tempus leo.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut augue lacus. Praesent dapibus congue lacus, a interdum nisl pulvinar et. Aliquam sodales eget sem vel auctor. Praesent adipiscing id dui sed pharetra. Donec hendrerit convallis ligula, id mollis urna commodo et. Quisque imperdiet semper molestie. Integer rutrum nisl eget nisi dignissim mollis. Mauris consectetur metus nec quam mollis, vitae scelerisque purus lobortis. Nunc dignissim cursus est volutpat interdum. Donec luctus felis dui, id porta nisl vulputate sit amet. Curabitur ultricies sed lacus eget cursus. Donec iaculis lacinia tellus at lobortis. Donec non vestibulum nibh, vel tempus leo.</p>
-                </div>
+                    <!-- TemplateEndEditable --></div>
 
                 <div id="pedigree" class="pedigree_box text">
                     <h2><span>Pedigree</span></h2>
+                    <!-- TemplateBeginEditable name="Pedigree" -->
                     <table>
-                        <tbody>
-                            <tr>
-                                <td rowspan="4"><strong>Reeces Thunder Storm</strong></td>
-                                <td rowspan="2">sire name 1</td>
-                                <td>sire name 3</td>
-                            </tr>
-                            <tr>
-                                <td>dam name 3</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2">dam name 1</td>
-                                <td>sire name 4</td>
-                            </tr>
-                            <tr>
-                                <td>dam name 4</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="4">ERL Rebels Miss Ditto</td>
-                                <td rowspan="2">sire name 2</td>
-                                <td>sire name 5</td>
-                            </tr>
-                            <tr>
-                                <td>dam name 5</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2">dam name 2</td>
-                                <td>sire name 6</td>
-                            </tr>
-                            <tr>
-                                <td>dam name 6</td>
-                            </tr>
-                        </tbody>
+                      <tbody>
+                        <tr>
+                          <td rowspan="4"><strong>Reeces Thunder Storm</strong></td>
+                          <td rowspan="2"><strong>sire name 1</strong></td>
+                          <td><strong>sire name 3</strong></td>
+                        </tr>
+                        <tr>
+                          <td>dam name 3</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2">dam name 1</td>
+                          <td><strong>sire name 4</strong></td>
+                        </tr>
+                        <tr>
+                          <td>dam name 4</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="4">ERL Rebels Miss Ditto</td>
+                          <td rowspan="2"><strong>sire name 2</strong></td>
+                          <td><strong>sire name 5</strong></td>
+                        </tr>
+                        <tr>
+                          <td>dam name 5</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2">dam name 2</td>
+                          <td><strong>sire name 6</strong></td>
+                        </tr>
+                        <tr>
+                          <td>dam name 6</td>
+                        </tr>
+                      </tbody>
                     </table>
+                    <!-- TemplateEndEditable -->
                     <p>&nbsp;</p>
                 </div> <!--// .pedigree_box -->
 
                 <div id="gallery" class="gallery_box text clearfix">
                     <h2><span>Gallery</span></h2>
-
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox" title="Some horse"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                    <a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
-                </div> <!--// .gallery_box -->
+                    <!-- TemplateBeginEditable name="Gallery" --><a href="../img/volney-horses/horse-01-600px.jpg" class="colorbox" title="Some horse"><img src="../img/volney-horses/horse-01-160px.jpg"></a>
+					<!-- TemplateEndEditable --></div> <!--// .gallery_box -->
 
                 <div id="video" class="video_box text clearfix">
                     <h2><span>Video</span></h2>
-
+                    <!-- TemplateBeginEditable name="Video" -->
                     <iframe width="640" height="480" src="//www.youtube.com/embed/gGc-XG-Fio8?rel=0" frameborder="0" allowfullscreen></iframe>
-                </div> <!--// .video_box -->
+                    <!-- TemplateEndEditable --></div> <!--// .video_box -->
 
             </div>
         </div> <!--// #content -->
     </div>
 
-    <div id="under_content">
+     <div id="under_content">
         <div class="container">
-            <div class="text"><a href="../sale-horses.html">View Our Arabians</a></div>
+            <div class="text"><a href="../volney-horses.html">View Our Arabians</a></div>
         </div>
     </div> <!--// #under_content -->
 
     <div id="above_footer">
         <div class="container">
-            <div class="text">Byron and Debi Donics of Volney Creek Montana<br>Contact us xxx-xxx-xxxx<br>
-            WWW.VOLNEYCREEKARABIANS.COM</div>
+            <div class="text">Byron and Debi Donics of Volney Creek Montana<br>
+            520 Volney Creek Road<br>
+            Red Lodge, Montana 59068</div>
         </div>
     </div>
 
     <div id="footer">
         <div class="container">
-            <div class="author">Website designed by <a href="">arabhorse.com</a> 2014</div>
+            <div class="author">Website designed by <a href="http://www.arabhorse.com" target="_blank">arabhorse.com</a> 2014</div>
         </div>
     </div>
 
