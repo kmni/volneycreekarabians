@@ -1,0 +1,86 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+ On branch master
+ Changes to be committed: Content
+#   (use "git reset HEAD <file>..." to unstage)
+#
+	new file:   .DS_Store
+	new file:   Templates/.DS_Store
+	new file:   Templates/_notes/dwsync.xml
+	new file:   Templates/horse-category.dwt
+	new file:   Templates/old/_notes/dwsync.xml
+	new file:   Templates/old/broodmares.dwt
+	new file:   Templates/old/new-foals.dwt
+	new file:   Templates/old/performance.dwt
+	new file:   Templates/old/sale-horses.dwt
+	new file:   Templates/old/volney-horses.dwt
+	new file:   _notes/dwsync.xml
+	new file:   css/_notes/dwsync.xml
+	new file:   favicon.ico
+	new file:   horses/.DS_Store
+	new file:   horses/anjali-ia/Anjali-01.jpg
+	new file:   horses/anjali-ia/Anjali-02.jpg
+	new file:   horses/anjali-ia/Anjali-03.jpg
+	new file:   horses/anjali-ia/Anjali-04.jpg
+	new file:   horses/anjali-ia/Anjali-05.jpg
+	new file:   horses/anjali-ia/Anjali-06.jpg
+	new file:   horses/anjali-ia/Anjali-07.jpg
+	new file:   horses/anjali-ia/Anjali-08.jpg
+	new file:   horses/anjali-ia/Anjali-09.jpg
+	new file:   horses/anjali-ia/Anjali-10.jpg
+	new file:   horses/anjali-ia/Anjali-11.jpg
+	new file:   horses/anjali-ia/_notes/dwsync.xml
+	new file:   horses/anjali-ia/anjali-ia-pedigree.html
+	new file:   horses/anjali-ia/index.html
+	new file:   horses/antar-al-mishaal/_notes/dwsync.xml
+	new file:   horses/antar-al-mishaal/antar-al-mishaal-pedigree.html
+	new file:   horses/antar-al-mishaal/index.html
+	new file:   horses/av-major-madre/_notes/dwsync.xml
+	new file:   horses/av-major-madre/av-major-madre-01.jpg
+	new file:   horses/av-major-madre/av-major-madre-02.jpg
+	new file:   horses/av-major-madre/av-major-madre-03.jpg
+	new file:   horses/av-major-madre/av-major-madre-04.jpg
+	new file:   horses/av-major-madre/av-major-madre-05.jpg
+	new file:   horses/av-major-madre/av-major-madre-pedigree.html
+	new file:   horses/av-major-madre/av-major-madre.jpg
+	new file:   horses/av-major-madre/index.html
+	new file:   horses/broken-promises/_notes/dwsync.xml
+	new file:   horses/broken-promises/broken-promises-pedigree.html
+	new file:   horses/broken-promises/index.html
+	new file:   horses/edenz-promise/_notes/dwsync.xml
+	new file:   horses/edenz-promise/edenz-promise-01.jpg
+	new file:   horses/edenz-promise/edenz-promise-02.jpg
+	new file:   horses/edenz-promise/edenz-promise-pedigree.html
+	new file:   horses/edenz-promise/edenz-promise-sm.jpg
+	new file:   horses/edenz-promise/index.html
+	new file:   horses/llc-larenzo/_notes/dwsync.xml
+	new file:   horses/llc-larenzo/index.html
+	new file:   horses/llc-larenzo/larenzo-01.jpg
+	new file:   horses/llc-larenzo/larenzo-sm.jpg
+	new file:   horses/llc-larenzo/llc-larenzo-pedigree.html
+	new file:   horses/noble-ballet/_notes/dwsync.xml
+	new file:   horses/noble-ballet/index.html
+	new file:   horses/noble-ballet/noble-ballet-01.jpg
+	new file:   horses/noble-ballet/noble-ballet-pedigree.html
+	new file:   horses/noble-ballet/noble-ballet.jpg
+	new file:   horses/promised-victory/_notes/dwsync.xml
+	new file:   horses/promised-victory/index.html
+	new file:   horses/promised-victory/promised-victory-pedigree.html
+	new file:   img/.DS_Store
+	new file:   img/Thumbs.db
+	new file:   img/_notes/dwsync.xml
+	new file:   img/bg_horses_list_hint-old.png
+	new file:   img/broodmares/_notes/dwsync.xml
+	new file:   img/gallery/_notes/dwsync.xml
+	new file:   img/new-foals/_notes/dwsync.xml
+	new file:   img/performance/_notes/dwsync.xml
+	new file:   img/sale-horses/_notes/dwsync.xml
+	new file:   img/volney-holding-photo.jpg
+	new file:   img/volney-horses/_notes/dwsync.xml
+	new file:   js/.DS_Store
+	new file:   js/_notes/dwsync.xml
+	new file:   js/colorbox/_notes/dwsync.xml
+	new file:   js/colorbox/images/_notes/dwsync.xml
+
+
